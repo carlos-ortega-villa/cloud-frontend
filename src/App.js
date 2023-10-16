@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 //import Component  from './Component';
 //import FileUpload from './FileUpload';
-import FileLoadAndUpload from './FileLoadAndUpload';
+import FileUpload from './FileUpload';
 function App() {
   return (
     <div className="App">
@@ -19,7 +19,7 @@ function App() {
         >
           Learn React
         </a> */}
-        <FileLoadAndUpload/>
+        <FileUpload/>
       </header>
     </div>
   );
